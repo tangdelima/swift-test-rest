@@ -1,0 +1,12 @@
+{
+  "name": "testerest-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {},
+  "author": "tangdelima@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
