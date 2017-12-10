@@ -6,7 +6,7 @@ This is a simple project to learn the principles to call REST APIs from an iOS A
 
 To run the webserver:
 
-* Install [Noje.js](https://nodejs.org/en/).
+* Install [Node.js](https://nodejs.org/en/).
 * Install project by calling `npm install`.
 * Start the webserver: `npm start`
 
