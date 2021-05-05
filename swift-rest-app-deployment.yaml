@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: swift-rest-app-deployment
+  labels:
+    app: swift-rest-app
+spec:
+  replicas: 1 
+  selector: 
+    matchLabels:
+      app: swift-rest-app
+  template:
+    metadata:
+      labels:
+        app: swift-rest-app
+    spec:
+      containers:
+      - name: swift-rest-app-pod
+        image: tangdelimaapps.azurecr.io/swift-rest-app/swift-rest-app:v1
+        ports:
+        - containerPort: 3000
+
